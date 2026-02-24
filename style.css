@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.btn {
+  background: #ff6a00;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text span {
+  color: #ff9a1f;
+}
+
+.hero-text h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  line-height: 1.6;
+  color: #cfcfcf;
+  margin-bottom: 25px;
+}
+
+.resume-btn {
+  background: #ff6a00;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* ICONS */
+.icons{
+  margin-right: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+/* IMAGE */
+.hero-img img {
+  width: 280px;
+  border-radius: 12px;
+}
+.section {
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-sub {
+  color: #cfcfcf;
+  margin-bottom: 40px;
+}
+
+.section-text {
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 1.7;
+  color: #d6d6d6;
+}
+
+/* GRID CARDS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  padding: 30px;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #ff6a00;
+}
+
+/* CONTACT */
+.contact-info {
+  margin-bottom: 10px;
+  color: #d0d0d0;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: white;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background: #ff6a00;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
